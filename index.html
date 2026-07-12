@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <meta
+    name="description"
+    content="حمّل تطبيق كيشيب واكتشف التحف والمقتنيات القديمة من خلال الصورة."
+  />
+
+  <meta name="theme-color" content="#0c1714" />
+
+  <title>كيشيب | تحميل التطبيق</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+/>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+ <header class="topbar">
+
+  <a href="#home" class="brand">
+
+    <img
+      src="assets/logo.png"
+      alt="شعار كيشيب"
+      class="brand-logo"
+    />
+
+    <span class="brand-name">KISHIB</span>
+
+  </a>
+
+  <div class="language-switcher" aria-label="اختيار اللغة">
+
+    <button
+      type="button"
+      class="language-button active"
+      data-language="ar"
+    >
+      عربي
+    </button>
+
+    <button
+      type="button"
+      class="language-button"
+      data-language="en"
+    >
+      EN
+    </button>
+
+    <button
+      type="button"
+      class="language-button"
+      data-language="ku"
+    >
+      کوردی
+    </button>
+
+  </div>
+
+</header>
+
+  <main id="home">
+
+   <section class="hero" id="home">
+
+  <div class="hero-content">
+
+    <span class="eyebrow" data-i18n="eyebrow">
+      من أرض الحضارة إلى العالم
+    </span>
+
+    <h1>
+      <span data-i18n="heroTitle">
+        اكتشف قصة مقتنياتك مع
+      </span>
+
+      <span class="kishib-word" data-i18n="kishib">
+        كيشيب
+      </span>
+    </h1>
+
+    <p class="hero-description" data-i18n="heroDescription">
+      تطبيق يساعدك على استكشاف التحف والمقتنيات القديمة من خلال
+      الصورة بطريقة واضحة وسريعة.
+    </p>
+
+    <div class="store-buttons" id="download">
+
+      <a
+        href="https://play.google.com/store/apps/details?id=com.kishib.app"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="store-button"
+        aria-label="تحميل كيشيب من Google Play"
+      >
+
+        <img
+          src="assets/google-play-badge.png"
+          alt="Google Play"
+        />
+
+      </a>
+
+      <div class="store-button app-store-coming">
+
+        <img
+          src="assets/app-store-badge.png"
+          alt="App Store"
+        />
+
+        <span class="coming-label" data-i18n="comingSoon">
+          قريباً
+        </span>
+
+      </div>
+
+    </div>
+
+    <p class="availability-text" data-i18n="availability">
+      متوفر الآن على Android — نسخة iPhone قريباً
+    </p>
+
+  </div>
+
+</section>
+
+<!-- معرض صور التطبيق -->
+<section class="screenshots-section">
+
+  <div class="section-title">
+    <span data-i18n="screenshotsLabel">
+      من داخل التطبيق
+    </span>
+
+    <h2 data-i18n="screenshotsTitle">
+      جولة داخل كيشيب
+    </h2>
+  </div>
+
+  <div class="screenshots-slider">
+
+    <div class="screenshots-track">
+
+      <!-- المجموعة الأولى -->
+      <div class="screenshot-item">
+        <img src="assets/screen-1.png" alt="واجهة من تطبيق كيشيب 1">
+      </div>
+
+      <div class="screenshot-item">
+        <img src="assets/screen-2.png" alt="واجهة من تطبيق كيشيب 2">
+      </div>
+
+      <div class="screenshot-item">
+        <img src="assets/screen-3.png" alt="واجهة من تطبيق كيشيب 3">
+      </div>
+
+      <div class="screenshot-item">
+        <img src="assets/screen-4.png" alt="واجهة من تطبيق كيشيب 4">
+      </div>
+
+      <div class="screenshot-item">
+        <img src="assets/screen-5.png" alt="واجهة من تطبيق كيشيب 5">
+      </div>
+
+      <div class="screenshot-item">
+        <img src="assets/screen-6.png" alt="واجهة من تطبيق كيشيب 6">
+      </div>
+
+      <div class="screenshot-item">
+        <img src="assets/screen-7.png" alt="واجهة من تطبيق كيشيب 7">
+      </div>
+
+      <div class="screenshot-item">
+        <img src="assets/screen-8.png" alt="واجهة من تطبيق كيشيب 8">
+      </div>
+
+
+      <!-- نسخة مكررة حتى يستمر السلايدر بدون توقف -->
+      <div class="screenshot-item">
+        <img src="assets/screen-1.png" alt="">
+      </div>
+
+      <div class="screenshot-item">
+        <img src="assets/screen-2.png" alt="">
+      </div>
+
+      <div class="screenshot-item">
+        <img src="assets/screen-3.png" alt="">
+      </div>
+
+      <div class="screenshot-item">
+        <img src="assets/screen-4.png" alt="">
+      </div>
+
+      <div class="screenshot-item">
+        <img src="assets/screen-5.png" alt="">
+      </div>
+
+      <div class="screenshot-item">
+        <img src="assets/screen-6.png" alt="">
+      </div>
+
+      <div class="screenshot-item">
+        <img src="assets/screen-7.png" alt="">
+      </div>
+
+      <div class="screenshot-item">
+        <img src="assets/screen-8.png" alt="">
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+    <!-- التواصل والسوشال -->
+    <section class="contact-section compact-section" id="contact">
+<div class="section-title">
+
+  <span data-i18n="stayConnected">
+    ابقَ على تواصل
+  </span>
+
+  <h2 data-i18n="contactKishib">
+    تواصل مع كيشيب
+  </h2>
+
+</div>
+
+<!-- الإيميل والموقع -->
+<div class="contact-grid compact-contact-grid">
+
+  <!-- البريد الإلكتروني -->
+  <a
+    href="mailto:contact@kishibapp.com"
+    class="contact-card"
+  >
+    <div class="contact-icon">
+
+      <svg viewBox="0 0 24 24">
+        <rect
+          x="3"
+          y="5"
+          width="18"
+          height="14"
+          rx="2"
+        ></rect>
+
+        <path d="M3 7l9 6 9-6"></path>
+      </svg>
+
+    </div>
+
+    <div class="contact-info">
+
+      <span data-i18n="contactUs">
+        تواصل معنا
+      </span>
+
+      <strong>
+        contact@kishibapp.com
+      </strong>
+
+    </div>
+  </a>
+
+
+  <!-- الموقع الرسمي -->
+  <a
+    href="https://www.kishibapp.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="contact-card"
+  >
+    <div class="contact-icon">
+
+      <svg viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="9"></circle>
+        <path d="M3 12h18"></path>
+        <path d="M12 3c3 3 3 15 0 18"></path>
+        <path d="M12 3c-3 3-3 15 0 18"></path>
+      </svg>
+
+    </div>
+
+    <div class="contact-info">
+
+      <span data-i18n="website">
+        الموقع الرسمي
+      </span>
+
+      <strong>
+        www.kishibapp.com
+      </strong>
+
+    </div>
+  </a>
+
+</div>
+
+     <div class="social-icons" id="social">
+
+  <a
+    href="https://www.instagram.com/kishib.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Instagram"
+  >
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+
+  <a
+    href="https://web.facebook.com/profile.php?id=61590564198003"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Facebook"
+  >
+    <i class="fa-brands fa-facebook-f"></i>
+  </a>
+
+  <a
+    href="https://www.tiktok.com/@kishibapp?lang=en"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="TikTok"
+  >
+    <i class="fa-brands fa-tiktok"></i>
+  </a>
+
+  <a
+    href="https://www.youtube.com/@kishibapp"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="YouTube"
+  >
+    <i class="fa-brands fa-youtube"></i>
+  </a>
+
+</div>
+
+  </main>
+
+
+  <!-- الفوتر -->
+  <footer>
+
+    <a
+      href="https://www.kishibapp.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="footer-logo"
+    >
+      KISHIB
+    </a>
+
+ <p>
+  © <span id="current-year"></span>
+  <span data-i18n="copyright">
+    جميع الحقوق محفوظة
+  </span>
+</p>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
